@@ -27,16 +27,16 @@
   align-items: center;
 }
 
-.status-bar__column img {
+.status-bar__column i {
   margin: 0 4px;
 }
 
 .status-bar__column .status-bar--batterysize {
-  width: 32px;
-  height: 16px;
+  width: 20px;
+  height: 22px;
 }
 
 .status-bar--lightningsize {
-  width: 9px;
+  width: 13px;
   height: 17px;
 }
