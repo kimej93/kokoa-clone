@@ -1,0 +1,122 @@
+.recommended-friends {
+  border-top: var(--gray-border);
+  border-bottom: var(--gray-border);
+  padding: 20px 0px;
+}
+
+.recommended-friends__title {
+  color: var(--find-font-color);
+  font-weight: 600;
+}
+
+.recommended-friends__text {
+  color: var(--find-font-color);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  margin: 90px 0px;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  color: var(--find-font-color);
+  font-weight: 600;
+}
+
+.open-chat__header span {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--gray-border);
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.open-post__chattitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.open-post__hashtag {
+  margin: 7px 0px;
+  font-size: 18px;
+  color: var(--find-font-color);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  margin-right: 8px;
+}
+
+.open-post__members span {
+  color: var(--find-font-color);
+  font-weight: 500;
+}
+
+.open-post__members span:last-child {
+  color: rgb(255, 56, 255);
+}
+
+.open-post__members .divider {
+  width: 1.35px;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 0px 5px;
+}
+
+.open-post__photo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  z-index: -2;
+}
+
+.open-post__photo span {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 15px;
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+  z-index: -1;
+}
+
+.open-post__photo i {
+  margin-right: 5px;
+}
+
+.screen-header__icon {
+  position: relative;
+}
+
+.setting__notification {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+}

@@ -1,0 +1,83 @@
+.more-screen .user-component__name {
+  margin-bottom: 16px;
+}
+
+.more-screen .user-component__subtitle {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.45);
+  display: flex;
+}
+
+.more-screen .user-component__subtitle-red {
+  color: rgba(255, 0, 0, 0.7);
+  border: 1px solid rgba(255, 0, 0, 0.7);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.more-screen .arrow-icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(0px, 100px));
+  padding: 15px 0 40px;
+  row-gap: 40px;
+  border-bottom: var(--gray-border);
+}
+
+.more-screen .arrow-icons span {
+  color: rgba(0, 0, 0, 0.7);
+  line-height: normal;
+}
+
+.more-screen .arrow-icons__icon {
+  position: relative;
+  z-index: -1;
+}
+
+.more-screen .arrow-icons i {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 34px;
+}
+
+.more-screen .mini-badge {
+  position: absolute;
+  top: -27px;
+  right: 25px;
+}
+
+.suggestions__title {
+  margin: 25px 0;
+  font-weight: 600;
+}
+
+.suggestions__apps {
+  display: flex;
+}
+
+.suggestions_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px;
+}
+
+.suggestions_app img {
+  width: 57px;
+  height: 57px;
+  border: var(--gray-border);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.suggestions_app_title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}

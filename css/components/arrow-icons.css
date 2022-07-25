@@ -1,0 +1,27 @@
+.arrow-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.arrow-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-icons__icon i {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.arrow-icons__icon span {
+  text-align: center;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 500;
+}
+
+.arrow-icons__icon span:not(.arrow-icons__long-text) {
+  line-height: 30px;
+}

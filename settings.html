@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings_Kokoa Talk</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <img
+          class="status-bar--batterysize"
+          src="images/status-bar/battery.png"
+          alt="배터리 표시"
+        />
+        <img
+          class="status-bar--lightningsize"
+          src="images/status-bar/lightning.png"
+          alt="충전 중 표시"
+        />
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Settings</h1>
+      <div class="screen-header__icon">
+        <span>
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="main-screen more-screen"></main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__chatnotification badge">1</span>
+            <i class="fa-regular fa-comment fa-xl"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__notification mini-badge"></span>
+            <i class="fa-solid fa-ellipsis fa-xl"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/58531aeaaa.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>
