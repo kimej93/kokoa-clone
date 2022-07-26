@@ -87,8 +87,13 @@
 
 .reply {
   display: flex;
+  width: 100%;
+  height: 44px;
   background-color: #fff;
-  padding: 8px 0px;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
 }
 
 .reply__cloumn:first-child {
@@ -97,11 +102,35 @@
 }
 
 .reply__cloumn:nth-child(2) {
-  width: 72%;
+  width: 100%;
 }
 
 .reply__cloumn:nth-child(2) input {
   width: 100%;
   box-sizing: border-box;
-  padding: 0 5px;
+  padding: 2px 5px;
+  font-size: 14px;
+  border: none;
+}
+
+.reply__cloumn:last-child {
+  width: 82px;
+  box-sizing: border-box;
+}
+
+.reply__icons {
+  display: flex;
+  align-items: center;
+}
+
+.reply__icons i:not(.reply__send) {
+  width: 41px;
+  text-align: center;
+}
+
+.reply__icons button {
+  width: 41px;
+  height: 44px;
+  background-color: var(--yellow);
+  border: none;
 }
