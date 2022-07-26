@@ -18,10 +18,23 @@
   position: relative;
 }
 
+@keyframes chatnotification {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__chatnotification {
   position: absolute;
   bottom: 10px;
   left: 16px;
+  animation: chatnotification 2s ease-in-out infinite;
 }
 
 .nav__notification {
