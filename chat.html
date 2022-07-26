@@ -47,7 +47,7 @@
       </div>
     </header>
 
-    <div class="main-screen chat-screen">
+    <main class="main-screen chat-screen">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
 
       <div class="message__row">
@@ -59,11 +59,39 @@
           <div class="message__text">
             <div class="message__bubble-tail"></div>
             <span class="message__bubble">Welcome!</span>
-            <span class="message__time">PM 21:27</span>
+            <span class="message__time">PM 15:00</span>
           </div>
         </div>
       </div>
-    </div>
+
+      <div class="message__row message__row--own">
+        <div class="message__content">
+          <div class="message__text">
+            <div class="message__bubble-tail"></div>
+            <span class="message__bubble">Hello KokoaTalk!</span>
+            <span class="message__time">PM 15:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__cloumn">
+        <i class="fa-solid fa-plus fa-lg"></i>
+      </div>
+      <div class="reply__cloumn">
+        <input type="text" placeholder="write a message" />
+      </div>
+      <div class="reply__cloumn">
+        <div class="reply__icons">
+          <i class="fa-regular fa-face-smile fa-lg"></i>
+          <button>
+            <i class="fa-solid fa-paper-plane fa-lg reply__send"></i>
+          </button>
+          <!-- <i class="fa-solid fa-hashtag fa-lg"></i> -->
+        </div>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/58531aeaaa.js"

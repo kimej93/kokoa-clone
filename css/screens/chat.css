@@ -20,6 +20,7 @@
 .message__row {
   width: 100%;
   display: flex;
+  margin-bottom: 25px;
 }
 
 .message__row img {
@@ -46,11 +47,9 @@
 .message__bubble-tail {
   background-color: #fff;
   padding: 5px;
-  margin-left: 11px;
   border-top-right-radius: 10px;
   position: absolute;
   top: 2px;
-  left: -11px;
 }
 
 .message__bubble {
@@ -65,4 +64,44 @@
   font-size: 12px;
   font-weight: 500;
   color: rgb(112, 112, 112);
+}
+
+.message__row--own {
+  justify-content: flex-end;
+}
+
+.message__row--own .message__text {
+  flex-direction: row-reverse;
+}
+
+.message__row--own .message__bubble {
+  background-color: var(--yellow);
+  margin: 0 0 0 8px;
+}
+
+.message__row--own .message__bubble-tail {
+  background-color: var(--yellow);
+  border-top-right-radius: 0;
+  border-top-left-radius: 10px;
+}
+
+.reply {
+  display: flex;
+  background-color: #fff;
+  padding: 8px 0px;
+}
+
+.reply__cloumn:first-child {
+  width: 40px;
+  text-align: center;
+}
+
+.reply__cloumn:nth-child(2) {
+  width: 72%;
+}
+
+.reply__cloumn:nth-child(2) input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
 }
