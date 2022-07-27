@@ -145,3 +145,11 @@
   background-color: var(--yellow);
   border: none;
 }
+
+.reply:focus-within i.fa-hashtag {
+  display: none;
+}
+
+.reply:focus-within button {
+  display: block;
+}

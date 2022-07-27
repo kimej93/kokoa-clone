@@ -24,6 +24,11 @@
 
 .user-component__subtitle {
   color: rgba(0, 0, 0, 0.6);
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .user-component__profile--xl {
@@ -54,4 +59,5 @@
   font-size: 14px;
   color: rgba(0, 0, 0, 0.4);
   font-weight: 500;
+  text-align: end;
 }
