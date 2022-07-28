@@ -33,9 +33,3 @@
     animation: slidetop 0.7s ease-in-out;
   }
 }
-
-@media screen and (orientation: landscape) {
-  #no-mobile {
-    display: none;
-  }
-}
