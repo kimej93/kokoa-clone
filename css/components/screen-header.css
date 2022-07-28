@@ -20,3 +20,16 @@
 .screen-header__icon span {
   margin-left: 25px;
 }
+
+@keyframes settingIconRotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.screen-header__icon .fa-gear:hover {
+  animation: settingIconRotate 2s ease-in-out infinite;
+}

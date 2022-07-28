@@ -24,12 +24,18 @@
   }
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 821px) {
   #no-mobile {
     display: flex;
   }
 
   #no-mobile span {
     animation: slidetop 0.7s ease-in-out;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  #no-mobile {
+    display: none;
   }
 }

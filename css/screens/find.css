@@ -18,6 +18,10 @@
   margin: 90px 0px;
 }
 
+.open-chat {
+  margin-bottom: 70px;
+}
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
