@@ -26,14 +26,15 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  letter-spacing: -0.5px;
 }
 
 .status-bar__column .status-bar--batterysize {
-  width: 18px;
-  height: 20px;
+  width: 17px;
+  height: 19px;
 }
 
 .status-bar--lightningsize {
-  width: 11px;
-  height: 15px;
+  width: 10px;
+  height: 14px;
 }
