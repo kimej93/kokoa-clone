@@ -11,7 +11,7 @@
 .chat__timestamp {
   background-color: rgba(0, 0, 0, 0.2);
   color: rgba(255, 255, 255, 0.8);
-  padding: 10px 15px;
+  padding: 8px 13px;
   border-radius: 20px;
   margin: 10px 0 30px;
   font-size: 12px;
@@ -69,7 +69,7 @@
 
 .message__read {
   color: var(--yellow);
-  font-size: 12px;
+  font-size: 11px;
   margin-left: 5px;
 }
 
@@ -100,6 +100,7 @@
 .reply {
   display: flex;
   width: 100%;
+  height: 44px;
   background-color: #fff;
   align-items: center;
   justify-content: space-between;
@@ -114,6 +115,7 @@
 
 .reply__cloumn:nth-child(2) {
   width: 100%;
+  height: 44px;
 }
 
 .reply__cloumn:nth-child(2) textarea {
@@ -122,6 +124,9 @@
   font-size: 14px;
   border: none;
   resize: none;
+  margin-top: 9px;
+  padding-left: 5px;
+  font-family: "Open Sans", "Nanum Gothic", sans-serif;
 }
 
 .reply__cloumn:last-child {

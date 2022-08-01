@@ -11,17 +11,18 @@
 }
 
 .arrow-icons__icon i {
-  font-size: 30px;
+  font-size: 24px;
   color: rgba(0, 0, 0, 0.9);
 }
 
 .arrow-icons__icon span {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
   color: rgba(0, 0, 0, 0.9);
   font-weight: 500;
+  font-size: 12px;
 }
 
 .arrow-icons__icon span:not(.arrow-icons__long-text) {
-  line-height: 30px;
+  line-height: 20px;
 }

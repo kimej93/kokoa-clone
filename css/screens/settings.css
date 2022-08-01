@@ -9,7 +9,7 @@
 
 .settings-setting {
   border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-  padding: 25px 0;
+  padding: 20px 0;
 }
 
 .settings-setting__cloumn {
@@ -21,7 +21,7 @@
 }
 
 .settings-setting__title {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: -0.5px;
   margin-left: 15px;
@@ -30,8 +30,8 @@
 }
 
 .settings-setting__text {
-  font-size: 14px;
-  margin: 8px 0 0 44px;
+  font-size: 12px;
+  margin: 8px 0 0 32px;
   display: block;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -39,15 +39,15 @@
 .settings-setting__icon {
   background-color: var(--orange);
   color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  width: 21px;
-  height: 21px;
+  font-size: 6px;
+  font-weight: 600;
+  width: 16px;
+  height: 16px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 5px;
-  right: -30px;
+  top: 2px;
+  right: -25px;
 }

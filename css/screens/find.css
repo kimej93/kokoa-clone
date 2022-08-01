@@ -7,15 +7,16 @@
 .recommended-friends__title {
   color: var(--find-font-color);
   font-weight: 600;
+  font-size: 14px;
 }
 
 .recommended-friends__text {
   color: var(--find-font-color);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 13px;
   text-align: center;
   display: block;
-  margin: 90px 0px;
+  margin: 70px 0px;
 }
 
 .open-chat {
@@ -27,10 +28,13 @@
   justify-content: space-between;
   margin: 20px 0px;
   color: var(--find-font-color);
+  font-size: 14px;
   font-weight: 600;
 }
 
 .open-chat__header span {
+  font-size: 14px;
+
   color: rgba(0, 0, 0, 0.25);
 }
 
@@ -44,14 +48,14 @@
 }
 
 .open-post__chattitle {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.9);
 }
 
 .open-post__hashtag {
   margin: 7px 0px;
-  font-size: 18px;
+  font-size: 14px;
   color: var(--find-font-color);
   font-weight: 500;
   text-transform: uppercase;
@@ -63,15 +67,16 @@
 }
 
 .open-post__members img {
-  width: 25px;
-  height: 25px;
-  border-radius: 10px;
+  width: 22px;
+  height: 22px;
+  border-radius: 9px;
   margin-right: 8px;
 }
 
 .open-post__members span {
   color: var(--find-font-color);
   font-weight: 500;
+  font-size: 12px;
 }
 
 .open-post__members span:last-child {
@@ -93,8 +98,8 @@
 }
 
 .open-post__photo img {
-  width: 110px;
-  height: 110px;
+  width: 90px;
+  height: 90px;
   border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   z-index: -2;
@@ -105,7 +110,7 @@
   color: #fff;
   padding: 5px 10px;
   border-radius: 12px;
-  font-size: 15px;
+  font-size: 12px;
   position: absolute;
   bottom: 8px;
   right: 8px;

@@ -22,9 +22,13 @@
   margin-left: 8px;
 }
 
+.fa-message {
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .more-screen .arrow-icons {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(0px, 100px));
+  grid-template-columns: repeat(auto-fill, minmax(0px, 80px));
   padding: 15px 0 40px;
   row-gap: 40px;
   border-bottom: var(--gray-border);
@@ -42,17 +46,18 @@
 
 .more-screen .arrow-icons i {
   color: rgba(0, 0, 0, 0.85);
-  font-size: 34px;
+  font-size: 24px;
 }
 
 .more-screen .mini-badge {
   position: absolute;
-  top: -27px;
-  right: 25px;
+  top: -23px;
+  right: 22px;
 }
 
 .suggestions__title {
   margin: 25px 0;
+  font-size: 14px;
   font-weight: 600;
 }
 
@@ -69,15 +74,15 @@
 }
 
 .suggestions_app img {
-  width: 57px;
-  height: 57px;
+  width: 44px;
+  height: 44px;
   border: var(--gray-border);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 .suggestions_app_title {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.5);
 }
