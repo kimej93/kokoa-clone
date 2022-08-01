@@ -1,11 +1,11 @@
 .welcome-header {
-  margin: 115px 0px;
+  margin: 85px 0px;
   text-align: center;
 }
 
 .welcome-header__title {
   margin-bottom: 45px;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 600;
   letter-spacing: -1px;
 }
@@ -23,7 +23,7 @@
 
 #login-form input {
   padding: 18px 0px;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
 }
 
@@ -50,6 +50,6 @@
 #login-form a {
   text-align: center;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: inherit;
 }
