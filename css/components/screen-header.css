@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--horizontal-space);
+  padding: var(--header-padiing);
   width: 100%;
   position: sticky;
   top: 27px;
