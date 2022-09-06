@@ -29,7 +29,7 @@
 
 .more-screen .arrow-icons {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(0px, 80px));
+  grid-template-columns: repeat(4, 80px);
   padding: 15px 0 40px;
   row-gap: 40px;
   border-bottom: var(--gray-border);
